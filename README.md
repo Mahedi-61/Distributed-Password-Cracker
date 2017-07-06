@@ -17,3 +17,6 @@ The Client after get connected to the server receive the hash and the range and
 try to generate all possible passwords within the range and hash it to compare it to the actual hash password. 
 If any generated password hash matches to the actual given hash then the client successfully crack the password.
 </p>
+
+<h2>Summary</h2>
+<p>When the server starts running it generate a hash with a combination of a random password and system date. Then it awaits for incoming client request. The client received a range from the server. If it fails to get the password within the range, it sends a RETRY packet to server .When a client successfully gets the password, it prints the password, and also notifies the server about it. But if it does not, it terminates with a failure message. </p>
