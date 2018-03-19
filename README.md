@@ -1,4 +1,4 @@
-# Distributed-Password-Cracke
+# Distributed-Password-Cracker
 #This project is developed for my project submission in ICT-6544: Distributed Systems course in BUET. 
 
 <h2>Introduction</h2>
